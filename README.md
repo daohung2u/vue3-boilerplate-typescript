@@ -1,24 +1,28 @@
-# vue3-boilerplate-typescript
+# vue3-boilerplate
 
-## Project setup
-```
-yarn install
+A Vue 3 Starter Boilerplate with Vue Router 4 Prettie.
+
+## Architecture
+
+```text
+├─ .vscode
+│  ├─ setting.json  // vscode config
+├─ public           // static assets.
+├─ src
+│  ├─ assets        // assets such as images or font files.
+│  ├─ components    // universal Vue components.
+│  ├─ router        // view's routers config.
+│  └─ views         // pages.
+├─ .eslintrc.js     // eslint config
+├─ .prettierrc      // prettier config
 ```
 
-### Compiles and hot-reloads for development
-```
+## Commands
+
+```bash
+# Start development server.
 yarn serve
-```
 
-### Compiles and minifies for production
-```
+# Compile production bundle.
 yarn build
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
